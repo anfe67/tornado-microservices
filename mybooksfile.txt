@@ -1,0 +1,5 @@
+Author:::"William Lavalle":::Title:::"How to Make a Million Dollars Playing Tennis"
+Author:::"Antonio Ferraro":::Title:::"Programming in Python"
+Author:::"Bill Ward":::Title:::"How to Make a Million Dollars Blogging"
+Author:::"Bill Ward":::Title:::"How to Make a Million Dollars Blogging Part 2"
+Author:::"Antonio Ferraro":::Title:::"Programming in Java"
