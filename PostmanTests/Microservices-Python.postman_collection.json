@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "8735c357-dfc9-4c8d-9989-b29be9d236c4",
+		"name": "Microservices-Python",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST - ADD WILL BOOK",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/books/addbook?title=\"How to Make a Million Dollars Playing Tennis\"&author=\"William Lavalle\"",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"books",
+						"addbook"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "\"How to Make a Million Dollars Playing Tennis\""
+						},
+						{
+							"key": "author",
+							"value": "\"William Lavalle\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - ADD ANTO BOOK",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/books/addbook?title=\"Programming in Python\"&author=\"Antonio Ferraro\"",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"books",
+						"addbook"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "\"Programming in Python\""
+						},
+						{
+							"key": "author",
+							"value": "\"Antonio Ferraro\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - ANTO BOOKS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/books/listbooks?author=\"Antonio Ferraro\"",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"books",
+						"listbooks"
+					],
+					"query": [
+						{
+							"key": "author",
+							"value": "\"Antonio Ferraro\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DEL - ANTO BOOK Programming in Python",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/books/delbook?title=\"Programming in Python\"",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"books",
+						"delbook"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "\"Programming in Python\""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LIST ALL BOOKS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/books/listbooks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"books",
+						"listbooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MICROSERVICE ROOT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MICROSERVICE INFO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/books/info",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"books",
+						"info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - BOOK DETAILS IN HTML",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/books/bookdetails?title=\"How to Make a Million Dollars Playing Tennis\"",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"books",
+						"bookdetails"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "\"How to Make a Million Dollars Playing Tennis\""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
